@@ -3,7 +3,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PhotoCarusel from "@/components/PhotoCarusel";
 import UserForm from "@/components/UserForm";
-import Image from "next/image";
 
 export default function Home() {
   return (
