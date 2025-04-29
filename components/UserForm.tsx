@@ -74,6 +74,7 @@ export default function UserForm(){
                   form.reset()
 
         } catch (error) {
+            console.error('Failed to submit form:', error);
             toast.error('Ошибка', {
                 description: 'Не удалось отправить заявку. Попробуйте позже.',
             })
