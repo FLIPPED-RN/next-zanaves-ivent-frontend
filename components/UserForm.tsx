@@ -40,7 +40,6 @@ const formSchema = z.object({
 export default function UserForm(){
 
     const [isLoading, setIsLoading] = useState(false)
-    const [isSuccess, setIsSuccess] = useState(false)
 
     const form = useForm<z.infer<typeof formSchema>>({
         resolver: zodResolver(formSchema),
