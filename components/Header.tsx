@@ -4,7 +4,7 @@ export default function Header(){
     return(
         <div className="flex items-center justify-between mx-10 py-3">
             <Image 
-                src={'/zanaves.svg'}
+                src={'/zanaves2.svg'}
                 alt="Железный Занавес логотип"
                 width={100}
                 height={100}

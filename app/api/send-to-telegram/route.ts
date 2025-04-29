@@ -5,7 +5,7 @@ export async function POST(request: Request) {
     const { message } = await request.json()
     
     const botToken = "7853072041:AAG4_JlBuEecG54w_VaGunelQpH2CpKObLU"
-    const chatId = "1619191387"
+    const chatId = "795484120"
 
     if (!botToken || !chatId) {
       throw new Error('Не настроены переменные окружения')
