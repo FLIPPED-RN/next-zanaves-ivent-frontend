@@ -10,7 +10,7 @@ export default function Header(){
                 height={100}
             />
             <div className="flex items-center gap-4 max-sm:flex-col">
-                <a href="tel:+79114867644" className="hover:text-[#C68C2A] transition">+7 (911) 486-76-44</a>
+                <a href="tel:+79062160876" className="hover:text-[#C68C2A] transition">+7 (906) 216-08-76</a>
                 <p>ул. Ялтинская, 81А</p>
             </div>
         </div>
